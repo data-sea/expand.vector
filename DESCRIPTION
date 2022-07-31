@@ -1,0 +1,11 @@
+Package: expand.vector
+Type: Package
+Title: All combinations of a given vector.
+Version: 1.0
+Date: 2022-07-30
+Author: David Christensen
+Maintainer: David Christensen <david.r.christensen@gmail.com>
+Description: Package function expand_vector() gives all combinations of vector elements, returned as a two column vector with nrow() equal to the original vector length squared. 
+License: GPL (>= 2)
+Imports: Rcpp (>= 1.0.7)
+LinkingTo: Rcpp
