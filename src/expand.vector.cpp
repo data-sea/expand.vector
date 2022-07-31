@@ -15,8 +15,8 @@ SEXP combo(Vector<T> a) {
       expand_vector_b[i] = a[ii];
     }
     
-    List out = List::create(_["vec1"] = expand_vector_a,
-                            _["vec2"] = expand_vector_b);
+    List out = List::create(_["var1"] = expand_vector_a,
+                            _["var2"] = expand_vector_b);
   
   out.attr("class") = "data.frame";
   out.attr("row.names") = Rcpp::seq(1, vec_length_sq);
