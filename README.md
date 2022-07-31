@@ -6,6 +6,7 @@ Use `remotes::install_github("data-sea/expand.vector")`
 
 ## Use example
 ```r 
+library(expand.vector)
 vec <- 1:3
 expand_vector(vec)
 ```
